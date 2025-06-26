@@ -1,0 +1,8 @@
+.container { max-width: 600px; margin: 2rem auto; }
+.tabs { display: flex; gap: 1rem; margin-bottom: 1rem; }
+.tabs button { padding: 0.5rem 1rem; border: none; background: #eee; cursor: pointer; }
+.tabs .active { background: #007bff; color: #fff; }
+.product-list { display: flex; flex-wrap: wrap; gap: 1rem; }
+.product-card { flex: 1 1 45%; border: 1px solid #ccc; padding: 1rem; border-radius: 8px; }
+.loader { text-align: center; margin: 1rem 0; }
+.end-message { text-align: center; color: #888; margin: 1rem 0; }
